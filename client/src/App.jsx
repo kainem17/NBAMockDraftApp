@@ -1,9 +1,13 @@
 import React from 'react'
+import Banner from './components/Banner'
+import Team from './components/Team'
+
+
 
 const App = () => {
   return (
-    <div>
-      sup
+    <div className='min-h-screen'>
+      <Banner />
     </div>
   )
 }
